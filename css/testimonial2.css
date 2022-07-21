@@ -155,3 +155,42 @@ img{
     font-style: italic;
     font-weight:900;
 }
+@keyframes myfirstanime
+{
+    0%{background-color:hsl(219, 29%, 14%);left:0px;top:0px;}
+    50%{background-color:hsl(263, 55%, 52%);left:300px;top:0px;}
+    /*50%{background-color:hsl(0, 0%, 100%);left:1180px;top:810px;}
+    75%{background-color:aqua; left:0px;top:810px;}*/
+    100%{background-color:hsl(219, 29%, 14%);left:0px;top:0px;}
+}
+.animation
+{
+    text-align:center;
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    position:relative;
+    height:90px;
+    width:190px;
+    border-radius:50px;
+    background-color:hsl(219, 29%, 14%);
+    animation-name:myfirstanime;
+    animation-duration:15s;
+    animation-timing-function:ease-in-out;
+}
+#txt
+{
+    position:absolute;
+    font-size:20px;
+    top:15px;
+    left:60px;
+}
+.prem
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    
+    width:45px;
+    border-radius:550px;
+}
